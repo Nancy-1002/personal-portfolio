@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nancy Shah</title>
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div class="toggle-sidebar">
+            <i class="las la-bars"></i>
+        </div>
+        <div class="logo">
+            <img src="assets/images/logo.jpeg" alt="" style="height: 25px; width: 25px;">
+        </div>
+        <nav>
+            <ul>
+                <li style="margin-top: 60px;">
+                    <a href="#home" class="active">
+                        <i class="las la-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <a href="#about_me" >
+                        <i class="las la-address-card"></i>
+                        <span>About Me</span>
+                    </a>
+                    <span>About Me</span>
+                </li>
+                <li>
+                    <a href="#my_resume">
+                        <i class="las la-id-badge"></i>
+                        <span>Curriculum Vitae</span>
+                    </a>
+                    <span>Curriculum Vitae</span>
+                </li>
+                <li>
+                    <a href="#my_work" >
+                        <i class="las la-briefcase"></i>
+                        <span>My Work</span>
+                    </a>
+                    <span>My Work</span>
+                </li>
+                <li>
+                    <a href="#contact_me" >
+                        <i class="las la-pager"></i>
+                        <span>Contact Me</span>
+                    </a>
+                    <span>Contact Me</span>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <main>
+        <section id="home" class="active">
+            <div class="meteor-shower">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 info">
+                        <img class="person-circle" src="assets/images/vvs-circle.png" alt="circle img" style="width: 32px; height: 32px;"> 
+                        <h1><span>I'm</span> Nancy,</h1>
+                        <h2><span id="typing-text"></span></h2>
+                        <p>I have a passion for designing and building user-friendly web applications. I have a Bachelor's Degree in Computer Engineering from the Dharmsinh Desai University.</p>
+                        <a class="btn-custom-blue" href="assets/files/CV.pdf" target="_blank" download>Download CV</a>
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="lab la-linkedin-in"></i>
+                                        <span>Linked In</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="lab la-github"></i>
+                                        <span>Github</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="lab la-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 image">
+                        <img src="assets/images/person home.JPG" alt="person home" style="height: 600px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about_me" >
+            <div class="container">
+                <div class="row hero-section">
+                    <div class="col-xl-4 image">
+                        <img src="assets/images/person home.JPG" alt="person about" style="height: 500px;">
+                    </div>
+                    <div class="col-xl-8 info">
+                        <header class="has-bg">
+                            <img src="assets/images/h1-bg.png" alt="">
+                            <h1>About Me</h1>
+                        </header>
+                        <h2>Full-Stack developer</h2>
+                        <p>
+                            I'm a web developer. I work on projects as a 
+                            Front-End and Back-End developer. as a Front-End developer, I'm Fluent in HTML, CSS, Bootstrap, SCSS, Javascript, and as a 
+                            Back-End developer, I'm fluent in NodeJS and Express.<br/>
+                            This is my motto: “The best way to predict your future is to create it.” 
+                        </p>
+                        <div class="items">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 ps-0">
+                                        <div class="item">
+                                            <span class="title">Name:</span>
+                                            <span class="value">Nancy Shah</span>
+                                        </div>
+                                        <div class="item">
+                                            <span class="title">Age:</span>
+                                            <span class="value">22</span>
+                                        </div>
+                                        <div class="item">
+                                            <span class="title">Location:</span>
+                                            <span class="value">Vadodara</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 ps-0">
+                                        <div class="item">
+                                            <span class="title">Contact Number:</span>
+                                            <span class="value">+91 84012 21224</span>
+                                        </div>
+                                        <div class="item">
+                                            <span class="title">Email Id:</span>
+                                            <span class="value">nancy.shah1002@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <a class="btn-custom-blue" href="assets/files/CV.pdf" download>Download CV</a>
+                            <a class="btn-custom-dark" href="#contact_me">Message Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 lang">
+                        <h2>Languages</h2>
+                        <div class="skill">
+                            <h4>Gujarati</h4>
+                            <div class="stars">
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                            </div>
+                            <p>Native</p>
+                        </div>
+                        <div class="skill">
+                            <h4>Hindi</h4>
+                            <div class="stars">
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                            </div>
+                            <p>Conversational</p>
+                        </div>
+                        <div class="skill">
+                            <h4>English</h4>
+                            <div class="stars">
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                            </div>
+                            <p>Conversational</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 keyski">
+                        <h2>Key Skills</h2>
+                        <div class="skill">
+                            <h4>Problem Solving</h4>
+                            <div class="stars">
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h4>Team Working</h4>
+                            <div class="stars">
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h4>Communication</h4>
+                            <div class="stars">
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star filled"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="techno" style="justify-content: center;">
+                    <h5>Technologies that I use:</h5>
+                    <div class="circle-container">
+                        <div class="circle">
+                            <img src="assets/images/angular.png" alt="Technology 1" data-name="Angular" data-context="Angular is an open-source, JavaScript framework written in TypeScript. Google maintains it, and its primary purpose is to develop single-page applications."style="transform: rotateY(0deg) translateZ(150px);">
+                            <img src="assets/images/bootstrap.png" alt="Technology 2" data-name="Bootstrap" data-context="Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites." style="transform: rotateY(45deg) translateZ(150px);">
+                            <img src="assets/images/c.png" alt="Technology 3" data-name="C Language" data-context="C is a general-purpose programming language." style="transform: rotateY(90deg) translateZ(150px);">
+                            <img src="assets/images/cpp.png" alt="Technology 4" data-name="C++ Language" data-context="C++ is a cross-platform language that can be used to create high-performance applications."style="transform: rotateY(135deg) translateZ(150px);">
+                            <img src="assets/images/css.png" alt="Technology 5" data-name="Cascading Style Sheets" data-context="CSS is a computer language for laying out and structuring web pages (HTML or XML)." style="transform: rotateY(180deg) translateZ(150px);">
+                            <img src="assets/images/html.png" alt="Technology 6" data-name="Hyper Text Markup Language" data-context="HTML is the standard markup language for creating Web pages " style="transform: rotateY(225deg) translateZ(150px);">
+                            <img src="assets/images/js.png" alt="Technology 7" data-name="JavaScript" data-context="JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, and animate images "style="transform: rotateY(270deg) translateZ(150px);">
+                            <img src="assets/images/react.jpg" alt="Technology 8" data-name="React" data-context="React is a JavaScript-based UI development library. Although React is a library rather than a language, it is widely used in web development."data-name="Technology 1" data-context="This is technology 1. "style="transform: rotateY(315deg) translateZ(150px);">
+                            <img src="assets/images/nodejs.png" alt="Technology 8"data-name="NodeJS" data-context="Node is used extensively for server-side programming, making it possible for developers to use JavaScript for client-side and server-side code without needing to learn an additional language."style="transform: rotateY(315deg) translateZ(150px);">
+
+                        </div>
+                        <div class="info-box" id="info-box"></div>
+                    </div>
+                </div>
+                <!-- 3D Circle End -->
+            </div>
+        </section>
+        
+        
+        <section id="my_resume">
+            <div class="container">
+                <div class="text-center">
+                    <header class="has-bg">
+                        <img src="assets/images/h1-bg.png" alt="">
+                        <h1>My Resume</h1>
+                    </header>
+                </div>
+                <div class="resume-container">
+                    <div class="resume-column">
+                        <div class="resume-item">
+                            <h3>Secondary School Certificate</h3>
+                            <p>Gujarat Public School- 2019</p>
+                            <p>96.95 Percentile rank
+                                <br/>
+                                83 Percentage
+                            </p>
+                        </div>
+                        <div class="resume-item">
+                            <h3>Higher Secondary Certificate</h3>
+                            <p>Vithal Vidhyalaya (IIT Ashram)-2021</p>
+                            <p>72.96 Percentile rank
+                                <br/>
+                                80 Percentage
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume-column">
+                        <div class="resume-item">
+                            <h3>Bachelor's Degree in Computer Engineering</h3>
+                            <p>Dharmsinh Desai University - 2022 - 2025</p>
+                            <p>Graduated with a strong focus on software development and web technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="my_work" >
+            <div class="text-center">
+                <header class="has-bg">
+                    <img src="assets/images/h1-bg.png" alt="">
+                    <h1>My Work</h1>
+                </header>
+            </div>
+            <div class="container-fluid">
+                <div class="row work-items">
+                    <div class="col-sm-6 col-lg-4 item">
+                        <div 
+                            class="wrap"
+                            data-img="assets/images/work/booknooklogo.jpg"
+                            data-title="Book Nook"
+                            data-description="This is a library management application. 
+                                Here we have two users: Admin and Customer/User. 
+                                The Admin can manage the orders and view the ordered list. 
+                                The Customer/User can order the books and view their selected list. 
+                                The Admin can also add/delete/update the books to the library."
+                            data-subject="Web Application Development"
+                            data-sem="5"
+                            data-tech="C#"
+                            data-project-demo="assets/project-links/booknook.html"
+                        >
+                            <img src="assets/images/work/booknooklogo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item">
+                        <div 
+                            class="wrap"
+                            data-img="assets/images/work/zayka.jpg"
+                            data-title="Zayka"
+                            data-description="This is a canteen management application. 
+                                Here we have two users: Admin and Customer/User. 
+                                The Admin can manage the orders and view the ordered list. 
+                                The Customer/User can order any delicious food and view their selected list. 
+                                The Admin can also add/delete/update the food items to the canteen."
+                            data-subject="PHP"
+                            data-sem="2"
+                            data-tech="php,css,html,javascript"
+                            data-project-demo="assets/project-links/zayka.html"
+                        >
+                            <img src="assets/images/work/zayka.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item">
+                        <div 
+                            class="wrap"
+                            data-img="assets/images/work/hh.png"
+                            data-title="Zayka"
+                            data-description="This is a canteen management application. 
+                                Here we have two users: Admin and Customer/User. 
+                                The Admin can manage the orders and view the ordered list. 
+                                The Customer/User can order any delicious food and view their selected list. 
+                                The Admin can also add/delete/update the food items to the canteen."
+                            data-subject="PHP"
+                            data-sem="2"
+                            data-tech="php,css,html,javascript"
+                            data-project-demo="assets/project-links/harmonyheaven.html"
+                        >
+                            <img src="assets/images/work/hh.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item">
+                        <div 
+                            class="wrap"
+                            data-img="assets/images/work/hm.png"
+                            data-title="Zayka"
+                            data-description="This is a canteen management application. 
+                                Here we have two users: Admin and Customer/User. 
+                                The Admin can manage the orders and view the ordered list. 
+                                The Customer/User can order any delicious food and view their selected list. 
+                                The Admin can also add/delete/update the food items to the canteen."
+                            data-subject="PHP"
+                            data-sem="2"
+                            data-tech="php,css,html,javascript"
+                            data-project-demo="assets/project-links/hotelManagement.html"
+                        >
+                            <img src="assets/images/work/hm.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item">
+                        <div 
+                            class="wrap"
+                            data-img="assets/images/work/logo192.png"
+                            data-title="Zayka"
+                            data-description="This is a canteen management application. 
+                                Here we have two users: Admin and Customer/User. 
+                                The Admin can manage the orders and view the ordered list. 
+                                The Customer/User can order any delicious food and view their selected list. 
+                                The Admin can also add/delete/update the food items to the canteen."
+                            data-subject="PHP"
+                            data-sem="2"
+                            data-tech="php,css,html,javascript"
+                            data-project-demo="assets/project-links/pixelTalk.html"
+                        >
+                            <img src="assets/images/work/logo192.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item">
+                        <div 
+                            class="wrap"
+                            data-img="assets/images/work/mia.jpeg"
+                            data-title="Zayka"
+                            data-description="This is a canteen management application. 
+                                Here we have two users: Admin and Customer/User. 
+                                The Admin can manage the orders and view the ordered list. 
+                                The Customer/User can order any delicious food and view their selected list. 
+                                The Admin can also add/delete/update the food items to the canteen."
+                            data-subject="PHP"
+                            data-sem="2"
+                            data-tech="php,css,html,javascript"
+                            data-project-demo="assets/project-links/mia.html"
+                        >
+                            <img src="assets/images/work/mia.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item">
+                        <div 
+                            class="wrap"
+                            data-img="assets/images/work/music.jpeg"
+                            data-title="Zayka"
+                            data-description="This is a canteen management application. 
+                                Here we have two users: Admin and Customer/User. 
+                                The Admin can manage the orders and view the ordered list. 
+                                The Customer/User can order any delicious food and view their selected list. 
+                                The Admin can also add/delete/update the food items to the canteen."
+                            data-subject="PHP"
+                            data-sem="2"
+                            data-tech="php,css,html,javascript"
+                            data-project-demo="assets/project-links/music.html"
+                        >
+                            <img src="assets/images/work/music.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact_me" >
+            <div class="text-center">
+                <header class="has-bg">
+                    <img src="assets/images/h1-bg.png" alt="">
+                    <h1>Contact Me</h1>
+                </header>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 form">
+                        <form>
+                            <div class="form-item">
+                                <label>Name</label>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="form-item">
+                                <label>Email Address</label>
+                                <input type="email" name="email">
+                            </div>
+                            <div class="form-item">
+                                <label>Subject</label>
+                                <input type="text" name="subject">
+                            </div>
+                            <div class="form-item">
+                                <label>Message</label>
+                                <textarea name="message"></textarea>
+                            </div>
+                            <div class="text-end">
+                                <button type="submit" class="btn-custom-dark">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 info">
+                        <div class="item">
+                            <i class="las la-phone"></i>
+                            <div class="text">
+                                <span class="title">Phone Number:</span>
+                                <a href="tel:+918401221224">+91 84012 21224</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="lar la-envelope"></i>
+                            <div class="text">
+                                <span class="title">Email ID:</span>
+                                <a href="mailto:nancy.shah1002@gmail.com">nancy.shah1002@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="las la-map-marker-alt"></i>
+                            <div class="text">
+                                <span class="title">Location:</span>
+                                <p>D/801, Samsara Apartment, Chhani Canal Road, <br> TP-13, Vadodara - 390002</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal fade" id="workModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="modal-close-btn" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="las la-times"></i>
+                </button>
+                <img src="" alt="bn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 left">
+                            <h2 class="title"></h2>
+                            <p class="description">
+                            </p>
+                        </div>
+                        <div class="col-lg-5 right">
+                            <div class="subject mb-3">
+                                <i class="las la-laptop-code"></i>
+                                <span class="title">Subject:</span>
+                                <span class="value"></span>
+                            </div>
+                            <div class="sem mb-3">
+                                <i class="lar la-calendar-check"></i>
+                                <span class="title">Semester:</span>
+                                <span class="value"></span>
+                            </div>
+                            <div class="tech">
+                                <i class="lar la-calendar-check"></i>
+                                <span class="title">Technology:</span>
+                                <span class="value"></span>
+                            </div>
+                            <div class="project-demo">
+                                <i class="lar la-play-circle"></i>
+                                <a href="">Project Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+    var options = {
+        strings: ["Back-End Developer", "Front-End Developer", "Logic Coder"],
+        typeSpeed: 50,
+        backSpeed: 25,
+        loop: true
+    };
+
+    var typed = new Typed("#typing-text", options);
+
+    const circle = document.querySelector('.circle');
+    const images = document.querySelectorAll('.circle img');
+    const infoBox = document.getElementById('info-box');
+
+    images.forEach(image => {
+        image.addEventListener('click', function() {
+            circle.classList.add('stopped');
+            infoBox.classList.add('active');
+            infoBox.innerHTML = `<h3>${this.getAttribute('data-name')}</h3><p>${this.getAttribute('data-context')}</p>`;
+        });
+    });
+
+    infoBox.addEventListener('click', function() {
+        circle.classList.remove('stopped');
+        infoBox.classList.remove('active');
+    });
+
+ 
+            document.addEventListener('click', function(event) {
+                if (!circle.contains(event.target)) {
+                    circle.classList.remove('stopped');
+                    infoBox.classList.remove('active');
+                }
+            });
+        });
+
+
+
+        function openModal(title, client, date, skills) {
+            document.getElementById('modal').style.display = 'block';
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-client').innerText = client;
+            document.getElementById('modal-date').innerText = date;
+            document.getElementById('modal-skills').innerText = skills;
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+
+    </script>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+#my_work {
+    
+    &.blur{
+        filter: blur(2px);
+    }
+    .filters {
+        text-align: center;
+        margin-top: 81px;
+        margin-bottom: 71px;
+    }
+    .work-items {
+        
+        .item {
+            margin-bottom: 24px;
+            .wrap {
+                position: relative;
+                overflow: hidden;
+                &:before,
+                &:after {
+                    display: none;                    
+                }
+
+                &:hover:before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(rgba(35, 67, 163, 0.53), 0.6); 
+                    border-radius: 8px;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    display: block; 
+                    cursor: pointer;
+                    
+                }
+
+                &:hover:after {
+                    content: "View";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba($dark_bg, 0.8);
+                    border: rgba(35, 67, 163, 0.53);
+                    border-radius: 8px;
+                    z-index: 2;
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center; 
+                    color: #fff;
+                    font-size: 24px;
+                    letter-spacing: 3px;
+                    top: 0;
+                    left: 0;
+                    cursor: pointer;
+                }
+
+                img {
+                    height: 300px;
+                    width: 100%;
+                    opacity: 1; 
+                    border-radius: 8px;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: 0.5; 
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+.modal#workModal{
+    .modal-dialog{
+        max-width: 900px; 
+        width: 700px; 
+        .modal-content{
+            background: $secondary;
+            padding: 32px;
+            .modal-body{
+                padding: 0;
+                position: static;
+                .modal-close-btn{
+                    position: absolute;
+                    right: -23px;
+                    top: -23px;
+                    background: $dark_bg;
+                    font-size: 22px;
+                    height: 46px;
+                    width: 46px;
+                    border-radius: 50%;
+                    border: none;
+                    transition: all 0.3s;
+
+                    &:hover{
+                        background: darken($primary,50%);
+                    }
+                }
+                img{
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+                    border-radius: 8px;
+                }
+
+                .left{
+                    padding-left: 0;
+                    padding-right: 32px;
+                    h2{
+                        margin-top: 32px;
+                        margin-bottom: 16px;
+                    }
+
+                    p{
+                        font-size: 15px ;
+                        color: $gray;
+                    }
+                }
+
+                .right{
+                    padding-right: 0;
+                    padding-left: 32px;
+                    padding-top: 80px;
+
+                    i{
+                        font-size: 18px;
+                        margin-right: 2px;
+                    }
+
+                    .value{
+                        color:$gray;
+                    }
+
+                    .project-demo{
+                        margin-top: 32px;
+
+                        a,i{
+                            color: $primary;
+                            text-decoration: none;
+                        }
+
+                        a:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+ 
